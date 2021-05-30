@@ -1,0 +1,109 @@
+.attribution {
+  font-size: 11px; text-align: center;
+  margin-top: 3%;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+
+/* GLOBAL */
+ body {
+   font-family: "Kumbh Sans", sans-serif;
+ }
+
+ section {
+   width: 100%;
+   min-height: 100vh;
+   position: relative;
+   background-color: hsl(185, 75%, 39%);
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+hr {
+  width: 100%
+}
+
+
+p {
+  color: blue;
+}
+ /**************** CLASSES ***************/
+
+
+
+ /* BACKGROUND IMAGES */
+.top-circle-bg, .bottom-circle-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+}
+
+.top-circle-bg {
+  /* left: -45%;
+  top: -20%; */
+  background-image: url(images/bg-pattern-top.svg);
+  background-position: bottom right;
+}
+
+.bottom-circle-bg{
+  right: -45%;
+  bottom: -45%;
+  background-image: url(images/bg-pattern-bottom.svg);
+  background-position: top left;
+}
+
+/* CARD */
+
+.card-img-top {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card{
+  border-radius: 5%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.profile-picture{
+  position: absolute;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  right: 36%;
+  top: 110px;
+}
+
+.card-title{
+  padding-top: 70px;
+}
+
+.card-title span {
+  margin-left: 10px;
+  color: hsl(0, 0%, 59%);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body p {
+  color: hsl(0, 0%, 59%);
+  font-size: 13px;
+}
+
+.card-footer h5 {
+  font-weight: 700;
+}
+
+.card-footer{
+  padding-top: 25px;
+  padding-bottom: 0;
+  background-color: white;
+}
